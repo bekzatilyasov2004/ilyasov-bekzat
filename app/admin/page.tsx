@@ -255,7 +255,7 @@ export default function AdminDashboard() {
                 </>
               )}
 
-              {/* <div className="space-y-2">
+              <div className="space-y-2">
                 <UploadButton<OurFileRouter>
                   endpoint="imageUploader"
                   onClientUploadComplete={handleUploadComplete}
@@ -271,24 +271,8 @@ export default function AdminDashboard() {
                     alt="uploaded preview"
                   />
                 )}
-              </div> */}
-              <div className="space-y-2">
-  <UploadButton<OurFileRouter, "imageUploader">
-    endpoint="imageUploader"
-    onClientUploadComplete={handleUploadComplete}
-    className="w-full bg-blue-600 text-white p-3 rounded-xl flex items-center justify-center gap-2"
-  >
-    <UploadCloud /> Upload Image
-  </UploadButton>
+              </div>
 
-  {imageUrl && (
-    <img
-      src={imageUrl}
-      className="w-full h-48 object-cover rounded-xl shadow-lg mt-3"
-      alt="uploaded preview"
-    />
-  )}
-</div>
 
 
               <button

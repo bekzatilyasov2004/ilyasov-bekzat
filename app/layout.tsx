@@ -76,7 +76,7 @@ export const metadata: Metadata = {
     "Web project showcase",
     
   ],
-  authors: [{ name: "Bekzat Ilyasov", url: "https://yourwebsite.com" }],
+  authors: [{ name: "Bekzat Ilyasov", url: "https://ilyasov-bekzat.vercel.app" }],
   creator: "Bekzat Ilyasov",
   publisher: "Bekzat Ilyasov",
   robots: "index, follow",
@@ -84,11 +84,11 @@ export const metadata: Metadata = {
     title: "Bekzat Ilyasov - UI/UX Designer & Frontend Developer",
     description:
       "Portfolio of Bekzat Ilyasov, a skilled UI/UX designer and frontend developer specializing in creating intuitive and engaging digital experiences.",
-    url: "https://yourwebsite.com",
+    url: "https://ilyasov-bekzat.vercel.app",
     siteName: "Bekzat Ilyasov Portfolio",
     images: [
       {
-        url: "https://yourwebsite.com/og-image.jpg",
+        url: "https://ilyasov-bekzat.vercel.app/imzo.png",
         width: 1200,
         height: 630,
         alt: "Bekzat Ilyasov Portfolio",
@@ -102,13 +102,13 @@ export const metadata: Metadata = {
     title: "Bekzat Ilyasov - UI/UX Designer & Frontend Developer",
     description:
       "Portfolio of Bekzat Ilyasov, a skilled UI/UX designer and frontend developer.",
-    images: ["https://yourwebsite.com/og-image.jpg"],
+    images: ["https://ilyasov-bekzat.vercel.app/imzo.png"],
     creator: "@BekzatIlyasov",
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    icon: "/imzo.png",
+    shortcut: "/imzo.png",
+    apple: "/imzo.png",
   },
 };
 
